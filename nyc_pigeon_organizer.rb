@@ -77,7 +77,11 @@ end
     h["Peter Jr."][:lives] << "Library"
   end
 
+  if h.key? ("Theo")
 
+    h["Theo"][:color] << "purple,grey"
+    h["Theo"][:gender] << "male"
+    h["Theo"][:lives] << "Subway"
     h
 
 
