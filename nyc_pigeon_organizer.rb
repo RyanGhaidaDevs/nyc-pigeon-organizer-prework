@@ -83,7 +83,7 @@ end
     h["Theo"][:gender] << "male"
     h["Theo"][:lives] << "Subway"
   end
-  
+
     h
 
 
