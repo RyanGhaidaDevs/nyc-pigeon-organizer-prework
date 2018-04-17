@@ -41,7 +41,7 @@ end
   end
 
   if h.key? ("Alex")
-    h["Alex"][:color] << "purple,brown"
+    h["Alex"][:color] << "white,brown"
     h["Alex"][:gender] << "male"
     h["Alex"][:lives] << "Central Park"
   end
