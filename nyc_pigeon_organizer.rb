@@ -82,6 +82,8 @@ end
     h["Theo"][:color] << "purple,grey"
     h["Theo"][:gender] << "male"
     h["Theo"][:lives] << "Subway"
+  end
+  
     h
 
 
