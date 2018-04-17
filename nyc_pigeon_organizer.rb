@@ -53,13 +53,14 @@ end
   end
 
   if h.key? ("Queenie")
-    h["Queenie"][:color] << "white, brown"
+    h["Queenie"][:color] << "white"
+    h["Queenie"][:color] << "brown"
     h["Queenie"][:gender] << "female"
     h["Queenie"][:lives] << "Subway"
   end
 
   if h.key? ("Ms. K")
-    h["Ms. K"][:color] << "grey
+    h["Ms. K"][:color] << "grey"
     h["Ms. K"][:color] << "white"
     h["Ms. K"][:gender] << "female"
     h["Ms. K"][:lives] << "Central Park"
@@ -73,7 +74,7 @@ end
 
   if h.key? ("Peter Jr.")
 
-    h["Peter Jr."][:color] << "purple" 
+    h["Peter Jr."][:color] << "purple"
     h["Peter Jr."][:color] << "grey"
     h["Peter Jr."][:gender] << "male"
     h["Peter Jr."][:lives] << "Library"
@@ -81,7 +82,8 @@ end
 
   if h.key? ("Theo")
 
-    h["Theo"][:color] << "purple,grey"
+    h["Theo"][:color] << "purple"
+    h["Theo"][:color] << "grey"
     h["Theo"][:gender] << "male"
     h["Theo"][:lives] << "Subway"
   end
