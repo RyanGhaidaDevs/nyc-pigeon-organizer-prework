@@ -1,34 +1,34 @@
 
 def nyc_pigeon_organizer(data)
- names = [] 
+ names = []
   data.each do |attributes, values|
-     
-     if attributes == :gender 
-       
+
+     if attributes == :gender
+
         values.each do |gender,pidgeon_names|
-           names << pidgeon_names 
-        end 
-  
+           names << pidgeon_names
+        end
+
      end
-    
-  end 
-  
+
+  end
+
   name_arr = names.flatten
-  
- h = name_arr.map{|x|[x,{}]}.to_h 
- 
+
+ h = name_arr.map{|x|[x,{}]}.to_h
+
  h.each do |x,y|
    y[:color] = []
-    
- end 
- 
+
+ end
+
  h.each do |x,y|
-   y[:gender] = [] 
-  end 
-  
+   y[:gender] = []
+  end
+
   h.each do |x,y|
-    y[:lives] = [] 
-  end 
- 
- 
+    y[:lives] = []
+  end
+
+
 end
